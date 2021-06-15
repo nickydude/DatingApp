@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace API.Extensions
 {
-    public static class ApplicationServiceExtentions
+    public static class ApplicationServiceExtensions
     {
         public static IServiceCollection AddApplicationService(this IServiceCollection services, IConfiguration config)
         {
