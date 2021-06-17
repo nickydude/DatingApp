@@ -12,7 +12,7 @@ import { take } from 'rxjs/operators';
 
 @Injectable()
 export class JwtInterceptor implements HttpInterceptor {
-
+  //Lecture 107 - Udemy - Build an app with ASPNET Core and Angular from scratch
   constructor(private accountService: AccountService) {}
 
   intercept(request: HttpRequest<unknown>, next: HttpHandler): Observable<HttpEvent<unknown>> {
