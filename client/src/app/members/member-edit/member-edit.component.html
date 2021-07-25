@@ -21,11 +21,11 @@
         </div>
         <div>
           <strong>Last seen:</strong>
-          <p>{{member.lastSeen}}</p>
+          <p>{{member.lastSeen | timeago}}</p>
         </div>
         <div>
           <strong>Member since:</strong>
-          <p>{{member.created}}</p>
+          <p>{{member.created | date: 'longDate'}}</p>
         </div>
       </div>
       <div class="card-footer"> 
